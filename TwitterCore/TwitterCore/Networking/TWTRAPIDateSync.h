@@ -30,11 +30,10 @@
 
 /**
  *  @param response     response from the API request
- *  @param responseData data from the request response
  */
 - (nullable instancetype)initWithHTTPResponse:(nullable NSURLResponse *)response NS_DESIGNATED_INITIALIZER;
 
-- (nullable instancetype)init NS_UNAVAILABLE;
+- (nonnull instancetype)init NS_UNAVAILABLE;
 
 /**
  * Parses http response header and syncs OAuth offsets if necessary
